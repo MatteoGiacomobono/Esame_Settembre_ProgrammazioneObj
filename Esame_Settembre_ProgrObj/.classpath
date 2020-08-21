@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Matteo Giacomobono/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37.jar" sourcepath="C:/Users/Matteo Giacomobono/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.tomcat.embed"/>
+			<attribute name="maven.artifactId" value="tomcat-embed-core"/>
+			<attribute name="maven.version" value="9.0.37"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Matteo Giacomobono/Desktop/spring-framework-master.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Matteo Giacomobono/.m2/repository/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar" sourcepath="C:/Users/Matteo Giacomobono/.m2/repository/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-web"/>
+			<attribute name="maven.version" value="5.2.8.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Matteo Giacomobono/.m2/repository/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE.jar" sourcepath="C:/Users/Matteo Giacomobono/.m2/repository/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-webmvc"/>
+			<attribute name="maven.version" value="5.2.8.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Matteo Giacomobono/Desktop/json-simple-master.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Matteo Giacomobono/Desktop/json-simple-1.1.1.jar.zip"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/demo-1">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
